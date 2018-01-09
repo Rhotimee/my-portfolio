@@ -1,5 +1,93 @@
-$bg-color: ghostwhite;
+$bg-color: #1e3148;
 
 body{
     background: $bg-color
+}
+
+.bg-home{
+    background: #5bb0ba;
+}
+.bg-resume{
+    background: #c15b78;
+}
+.bg-work{
+    background: #e1c340;
+}
+
+.bg-footer{
+    background: #3A4360;
+}
+
+
+#main-header{
+
+    .bg1{
+        background: #3A4360;
+    }
+
+    .name{
+        color: #E6E2DB;
+        .fa{
+            font-size: 23px;
+            color: #E6E2DB; 
+            
+        }
+    }
+    .bg2{
+        background: rgb(51, 51, 77);
+        color: #E6E2DB;
+    }
+
+}
+
+#home{
+    .bg-home{
+        background: #5bb0ba;
+    }
+    .progress{
+        .bg-progress{
+            background: #5bb0ba;
+        }
+        .progress-bar{
+            border-radius: 15px;
+        }
+    }
+}
+
+#work{
+    img{
+        width: 100%;
+        height: 100%
+    }
+}
+
+.bg-black{
+    background: #000;
+    color:#fff;
+}
+
+#main-header{
+    img{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .port-item{
+        width: 30%;
+        .fa{
+            font-size: 2em;
+        }
+    }
+
+    .port-item:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+@media(min-width:1199px){
+    .port-item{
+        padding: 3em !important;
+    }
 }
